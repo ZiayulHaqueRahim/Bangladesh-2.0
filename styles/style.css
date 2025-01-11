@@ -149,6 +149,25 @@ body{
     background-color: #006A50;
 }
 
+
+/* statement section */
+.statement{
+    
+    padding: 20px;
+    background-color: #FFFFFF;
+    background-image: url(/assets/quote-bg.png);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position: left;
+    margin-top: 20px;
+}
+
+
+
+
+
+
 /* news section */
 
 .news-1{
