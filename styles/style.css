@@ -172,6 +172,7 @@ body{
 
 .news-1{
     display: flex;
+    padding: 50px auto;
     flex-direction: row;
     justify-content: end;
     align-items: center;
@@ -180,13 +181,30 @@ body{
 
 .news-2{
     display: flex;
+    padding: 50px auto;
     flex-direction: row;
     justify-content: end;
     align-items: center;
 }
+.news-img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+ .news-img > img{
+    border-radius: 10px;
+ }
 
 
+ .stat{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+ }
 
+ .news{
+    padding: 80px auto;
+ }
 
 
 
