@@ -207,6 +207,12 @@ body{
  }
 
 
+ input{
+    height: 30px;
+    width: 800px;
+    border-radius: 3px;
+    border-style: none;
+ }
 
 /* donate section */
 
@@ -215,9 +221,31 @@ body{
     flex-direction: column;
     gap: 15px;
     align-items: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 
+.amount{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.amount-btn{
+    background-color: #FFFFFF;
+    color: black;
+    font-size: larger;
+    text-align: center;
+    border-style: none;
+    padding: 30px 20px;
+    border-radius: 4px;
+}
+
+.amount-btn:hover{
+    background-color: #09A15C;
+    
+}
 
 /* footer section */
 
