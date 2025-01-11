@@ -18,6 +18,16 @@ body{
 }
 
 
+.title{
+    font-family: Fira Sans;
+    font-size: bold;
+    
+}
+.subtitle{
+    font-family: Fira Sans;
+    font-size: small;
+    color: #0E0E0EB3;
+}
 
 /* hero section */
 
@@ -35,8 +45,8 @@ body{
 
 
 .subheading{
-    color: gray;
-   
+    color: #0E0E0EB3;
+    font-family: Fira Sans;
 }
 .heading{
     text-align: left;
@@ -51,6 +61,12 @@ body{
 
 
 /* vission section */
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
 
 .card-container{
     display: flex;
